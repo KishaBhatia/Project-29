@@ -10,7 +10,7 @@ class Stone {
       this.width=width;
       this.height=height;
       
-      World.add(world, this.image);
+      World.add(world, this.body);
     }
 
     display(){
