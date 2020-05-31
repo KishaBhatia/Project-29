@@ -1,8 +1,8 @@
 class Box {
     constructor(x, y, width, height) {
       var options = {
-          'restitution':0.4,
-          'friction':1.5,
+          'restitution':0.04,
+          'friction':1.7,
           'density':1.0
       }
       this.body = Bodies.rectangle(x, y, width, height, options);
@@ -23,5 +23,4 @@ class Box {
       rect(0, 0, this.width, this.height);
       pop();
     }
-  }
-  
+  };
