@@ -65,7 +65,7 @@ function setup() {
 
 function draw() {
   background(58,3,29);
-  Engine.run(engine);  
+  Engine.update(engine);  
 
   ground.display();
   stand1.display();
