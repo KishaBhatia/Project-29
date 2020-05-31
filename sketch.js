@@ -20,7 +20,7 @@ function setup() {
   createCanvas(1220,750);
   engine = Engine.create();
   world = engine.world;
-  
+
   ground = new Ground(610,740,1220,20);
 
   stand1 = new Ground(490,650,330,20);
@@ -37,7 +37,7 @@ function setup() {
   box7=new Box(463,560,50,50);
   box8=new Box(516,560,50,50);
   box9=new Box(569,560,50,50);
-  //stand1 row 
+  //stand1 row3
   box10=new Box(435,510,50,50);
   box11=new Box(490,510,50,50);
   box12=new Box(545,510,50,50);
@@ -64,7 +64,7 @@ function setup() {
 }
 
 function draw() {
-  background(58,3,29);  
+  background(58,3,29);
   Engine.run(engine);  
 
   ground.display();
