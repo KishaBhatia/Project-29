@@ -24,4 +24,4 @@ class SlingShot{
         line(pointA.x, pointA.y, pointB.x, pointB.y);
         }
     }
-}
+};
