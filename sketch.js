@@ -57,9 +57,9 @@ function setup() {
    //stand2 row3
    box21=new Box(890,155,50,50);
 
-   stone = new Stone(100,350,50,50);
+   stone = new Stone(150,350,50,50);
 
-   slingshot = new SlingShot(stone.body,{x:100, y:350});
+   slingshot = new SlingShot(stone.body,{x:150, y:350});
 
 }
 
