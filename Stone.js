@@ -1,8 +1,8 @@
 class Stone {
     constructor(x, y,width,height) {
       var options = {
-          'restitution':0.2,
-          'friction':1.4,
+          'restitution':0.3,
+          'friction':1.2,
           'density':1.5
       }
       this.body = Bodies.rectangle(x, y, width, height, options);
